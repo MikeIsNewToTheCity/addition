@@ -5,7 +5,7 @@ const Addition = (props) => {
     return (
         <>
         <p>
-        { props.numberOne } + { props.numberTwo } = { props.numberOne + props.numberTwo }
+            { props.numberOne } + { props.numberTwo } = { props.numberOne + props.numberTwo }
         </p>
         </>
     )
