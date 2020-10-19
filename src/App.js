@@ -1,25 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Addition from './addition';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Addition numberOne={4} numberTwo={4} />
+      <Addition numberOne={7} numberTwo={-1} />
+      <Addition numberOne={-20} numberTwo={27} />
+      <Addition numberOne={2.1} numberTwo={1.9} />
+      <Addition numberOne={1} numberTwo={2} />
+      <Addition numberOne={100} numberTwo={-100} />
+      <Addition numberOne={534} numberTwo={-525} />
+    </>
   );
 }
 
